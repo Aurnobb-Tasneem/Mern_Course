@@ -1,0 +1,17 @@
+<head></head>
+<body>
+    
+        
+    <button onclick="getData()">Click to see !!</button>
+    
+    <script>
+     
+    async function getData() {
+      let res= await fetch("https://jsonplaceholder.typicode.com/posts");
+      let jsonData=await res.json();
+      document.write(JSON.stringify(jsonData));
+    }
+    
+
+    </script>
+</body>
