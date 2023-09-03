@@ -63,3 +63,5 @@ router.get("/titleRead",titleController.read);
 router.get("/titleDelete",titleController.delete);
 router.get("/titleUpdate",titleController.update);
 
+module.exports=router;
+
