@@ -6,5 +6,5 @@ const app=http.createServer(
         res.end("Welcome to the Simple HTTP Server!");
     })
 app.listen(8080 ,()=>{
-    console.log("listening on port 5500 !")
+    console.log("listening on port 8080 !")
 })
