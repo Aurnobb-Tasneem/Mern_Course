@@ -5,6 +5,6 @@ const app=http.createServer(
         res.writeHead(200,{'Content-Type':'text/plain'});
         res.end("Hello This is Node Js Server!");
     })
-app.listen(5500,()=>{
+app.listen(8080 ,()=>{
     console.log("listening on port 5500 !")
 })
