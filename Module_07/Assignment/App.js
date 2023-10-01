@@ -5,7 +5,7 @@ require('dotenv').config();
 
 app.use("/api",router);
 app.use('*',(req,res)=>{
-    res.status(404).json({status:"fail",data:"Not Found"})
+    res.status(404).json({status:"Fail",data:"Not Found"})
 })
 
 module.exports=app;
